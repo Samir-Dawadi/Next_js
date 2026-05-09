@@ -1,20 +1,49 @@
 export default function Header() {
     return (
         <>
-            <nav className="w-full p-3 bg-blue-200 flex justify-between items-center text-black shadow-md">
-                <div className="flex gap-2 items-center justify-center">
-                    <img src="./file.svg" className="size-15" />
-                    <h1 className="text-3xl font-bold">Googles Shop</h1>
-                </div>
+            <header className="bg-black text-white">
+                <div className="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center">
 
-                <div className="flex gap-5 font-bold text-xl">
-                    <a href="#Home" className="hover:text-blue-600 hover:scale-110">Home</a>
-                    <a href="#about" className="hover:text-blue-600 hover:scale-110">About</a>
-                    <a href="#contact" className="hover:text-blue-600 hover:scale-110">Contact</a>
-                    <a href="#product" className="hover:text-blue-600 hover:scale-110">Product</a>
-                    <a href="#cart" className="hover:text-blue-600 hover:scale-110">Cart</a>
+                    {/* LOGO */}
+                    <div className="flex items-center gap-3">
+
+                        <div className="bg-white text-black w-12 h-12 rounded-2xl flex items-center justify-center text-2xl font-bold">
+                            S
+                        </div>
+
+                        <div>
+                            <h1 className="text-3xl font-extrabold tracking-wide">
+                                SneakStep
+                            </h1>
+
+                            <p className="text-gray-400 text-sm">
+                                Premium Sneakers
+                            </p>
+                        </div>
+
+                    </div>
+
+                    {/* NAVBAR */}
+                    <nav className="flex gap-6 font-medium">
+                        <a href="#" className="hover:text-gray-300">
+                            Home
+                        </a>
+
+                        <a href="#" className="hover:text-gray-300">
+                            Shop
+                        </a>
+
+                        <a href="#" className="hover:text-gray-300">
+                            Collections
+                        </a>
+
+                        <a href="#" className="hover:text-gray-300">
+                            Contact
+                        </a>
+                    </nav>
+
                 </div>
-            </nav>
+            </header>
 
         </>
     )

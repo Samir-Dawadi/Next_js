@@ -2,70 +2,298 @@
 
 export default function Home() {
   return (
-    <>
-      <main className="bg-gray-200 min-h-screen w-full">
+    <main className="min-h-screen bg-white">
 
-        <section
-          id="product"
-          className="w-[85%] mx-auto mt-8 bg-blue-100 rounded-xl shadow-lg p-6"
-        >
-          <h1 className="text-center text-3xl font-bold mb-5">
-            Product List
-          </h1>
+      {/* HERO SECTION */}
+      <section className="bg-gray-100 py-20">
+        <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
 
-          <div className="grid grid-cols-3 gap-4 ">
-            <div className="bg-white p-4 rounded-lg shadow hover:scale-110">
-              <div className="flex gap-5">
-                <h2 className="font-bold text-xl mb-2 text-center">Glass 1</h2>
-                <img src="./file.svg" className="size-15 flex items-center" />
-              </div>
-              <p className="mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam sequi corrupti adipisci earum, voluptatum repudiandae deleniti dolores vitae molestias cum, enim ipsum facilis sint optio provident aliquid culpa, sapiente rerum!</p>
-              <div className="text-center mt-5 border rounded-xl bg-red-100 hover:bg-red-400">
-                <button className="font-bold">Get Item</button>
-              </div>
+          <div>
+
+            <p className="text-red-500 font-bold mb-4">
+              TRENDING SHOES 2025
+            </p>
+
+            <h1 className="text-6xl font-bold leading-tight mb-6">
+              Walk With Style & Comfort
+            </h1>
+
+            <p className="text-gray-600 text-lg mb-8">
+              Discover premium sneakers designed for comfort,
+              performance and everyday fashion.
+            </p>
+
+            <div className="flex gap-4">
+
+              <button className="bg-black text-white px-8 py-4 rounded-2xl hover:scale-105 transition">
+                Shop Now
+              </button>
+
+              <button className="border border-black px-8 py-4 rounded-2xl hover:text-white transition hover:bg-blue-400">
+                Explore
+              </button>
+
             </div>
 
-            <div className="bg-white p-4 rounded-lg shadow hover:scale-110">
-              <h2 className="font-bold text-xl mb-2">Glass 2</h2>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta et totam ab ipsam hic? Eveniet accusantium illum, cumque hic consectetur sequi odit ad labore, architecto perferendis excepturi reiciendis explicabo repellat!</p>
-            </div>
-
-            <div className="bg-white p-4 rounded-lg shadow hover:scale-110">
-              <h2 className="font-bold text-xl mb-2">Glass 3</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, delectus excepturi. Enim alias nihil, excepturi illo sed consequatur non vitae quas id, aut maiores voluptates minima soluta maxime ullam a?</p>
-            </div>
           </div>
-        </section>
 
-        <section
-          id="about"
-          className="w-[85%] mx-auto mt-8 bg-green-100/50 rounded-xl shadow-lg p-6"
-        >
-          <h1 className="text-3xl font-bold mb-4 text-center">
-            About Us
-          </h1>
-
-          <p className="text-lg ">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, maiores labore. Dolorem amet quisquam, debitis architecto aut ab est odio mollitia alias repudiandae sint nostrum ipsa, cumque ipsam numquam saepe?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, velit quo consectetur consequatur, voluptatibus odit explicabo earum blanditiis necessitatibus vitae iure recusandae saepe nihil aspernatur quia eius, enim ex qui.
-          </p>
-        </section>
-
-        <section id="contact" className="w-[85%] mx-auto mt-8 bg-yellow-100/50 rounded-xl shadow-lg p-6 mb-10"
-        >
-          <h1 className="text-3xl font-bold mb-4 text-center">
-            Contact Us
-          </h1>
-
-          <div className="flex flex-col gap-3 text-lg">
-            <p>Email: googlesshop@gmail.com</p>
-            <p>Phone: 987232323</p>
-            <p>Location: ktm</p>
+          <div>
+            <img
+              src="https://images.unsplash.com/photo-1542291026-7eec264c27ff"
+              alt="shoe"
+              className="w-full h-137 object-cover rounded-3xl shadow-2xl"
+            />
           </div>
-        </section>
-      </main>
 
-    </>
-  )
+        </div>
+      </section>
+
+      {/* OFFER SECTION */}
+      <section className="bg-yellow-300 py-6 mt-4 max-w-7xl mx-auto">
+        <div className="text-center">
+
+          <h2 className="text-2xl font-bold animate-[bounce_0.5s_infinite]">
+            🔥 Mega Sale - Up To 50% OFF On Sneakers
+          </h2>
+
+        </div>
+      </section>
+
+      {/* FEATURED SHOES */}
+      <section className="py-20">
+        <div className="max-w-7xl mx-auto px-6">
+
+          <div className="flex justify-between items-center mb-12">
+
+            <h2 className="text-5xl shadow-xl font-bold text-center text-red-500 animate-[pulse_1s_infinite] ">
+              Featured Shoes
+            </h2>
+
+            <button className="text-red-500 font-bold">
+              View All
+            </button>
+
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-8">
+
+            {/* CARD 1 */}
+            <div className="border rounded-3xl overflow-hidden hover:shadow-2xl hover:scale-106">
+
+              <img
+                src="https://images.unsplash.com/photo-1542291026-7eec264c27ff"
+                alt=""
+                className="h-72 w-full object-cover"
+              />
+
+              <div className="p-6">
+
+                <h3 className="text-2xl font-bold mb-2">
+                  Nike Air Max
+                </h3>
+
+                <p className="text-gray-500 mb-5 line-clamp-1">
+                  Lightweight running sneakers for everyday comfort.
+                </p>
+
+                <div className="flex justify-between items-center w-full">
+
+                  <div className="flex gap-3 items-center">
+                    <span className="text-2xl font-bold ">
+                      $60
+                    </span>
+                    <span className="text-md font-bold text-red-400">
+                      <em className="line-through">
+                        $120
+                      </em>
+                    </span>
+                  </div>
+
+                  <button className="bg-black text-white px-5 py-2 rounded-xl hover:bg-blue-500">
+                    Buy Now
+                  </button>
+
+                </div>
+
+              </div>
+            </div>
+
+            {/* CARD 2 */}
+            <div className="border rounded-3xl overflow-hidden hover:shadow-2xl hover:scale-106">
+
+              <img
+                src="https://images.unsplash.com/photo-1600185365483-26d7a4cc7519"
+                alt=""
+                className="h-72 w-full object-cover"
+              />
+
+              <div className="p-6">
+
+                <h3 className="text-2xl font-bold mb-2">
+                  Adidas Ultraboost
+                </h3>
+
+                <p className="text-gray-500 mb-5">
+                  Stylish premium sneakers with soft cushioning.
+                </p>
+
+                <div className="flex justify-between items-center w-full">
+
+                  <div className="flex gap-3 items-center">
+                    <span className="text-2xl font-bold ">
+                      $60
+                    </span>
+                    <span className="text-md font-bold text-red-400">
+                      <em className="line-through">
+                        $120
+                      </em>
+                    </span>
+                  </div>
+
+                  <button className="bg-black text-white px-5 py-2 rounded-xl hover:bg-blue-500">
+                    Buy Now
+                  </button>
+
+                </div>
+
+              </div>
+            </div>
+
+            {/* CARD 3 */}
+            <div className="border rounded-3xl overflow-hidden hover:shadow-2xl hover:scale-106">
+
+              <img
+                src="https://images.unsplash.com/photo-1608231387042-66d1773070a5"
+                alt=""
+                className="h-72 w-full object-cover"
+              />
+
+              <div className="p-6">
+
+                <h3 className="text-2xl font-bold mb-2">
+                  Puma RS-X
+                </h3>
+
+                <p className="text-gray-500 mb-5">
+                  Modern streetwear sneakers with trendy design.
+                </p>
+
+                <div className="flex justify-between items-center w-full">
+
+                  <div className="flex gap-3 items-center">
+                    <span className="text-2xl font-bold ">
+                      $60
+                    </span>
+                    <span className="text-md font-bold text-red-400">
+                      <em className="line-through">
+                        $120
+                      </em>
+                    </span>
+                  </div>
+
+                  <button className="bg-black text-white px-5 py-2 rounded-xl hover:bg-blue-500">
+                    Buy Now
+                  </button>
+
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      {/* CATEGORY SECTION */}
+      <section className="bg-gray-100 py-20">
+        <div className="max-w-7xl mx-auto px-6">
+
+          <h2 className="text-4xl font-bold mb-12">
+            Shop By Category
+          </h2>
+
+          <div className="grid md:grid-cols-4 gap-6">
+
+            <div className="bg-white p-10 rounded-3xl text-center shadow-lg hover:-translate-y-2 transition">
+              👟 Running Shoes
+            </div>
+
+            <div className="bg-white p-10 rounded-3xl text-center shadow-lg hover:-translate-y-2 transition">
+              🏀 Basketball Shoes
+            </div>
+
+            <div className="bg-white p-10 rounded-3xl text-center shadow-lg hover:-translate-y-2 transition">
+              🛹 Casual Sneakers
+            </div>
+
+            <div className="bg-white p-10 rounded-3xl text-center shadow-lg hover:-translate-y-2 transition">
+              🏃 Sports Shoes
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      {/* NEW ARRIVALS */}
+      <section className="py-20">
+        <div className="max-w-7xl mx-auto px-6">
+
+          <h2 className="text-4xl font-bold mb-12">
+            New Arrivals
+          </h2>
+
+          <div className="grid md:grid-cols-3 gap-8">
+
+            <div className="bg-black text-white rounded-3xl p-10">
+              <h3 className="text-3xl font-bold mb-4">
+                Nike Revolution 7
+              </h3>
+
+              <p className="text-gray-300 mb-6">
+                Built for speed and maximum comfort.
+              </p>
+
+              <button className="bg-white text-black px-6 py-3 rounded-xl">
+                Explore
+              </button>
+            </div>
+
+            <div className="bg-red-500 text-white rounded-3xl p-10">
+              <h3 className="text-3xl font-bold mb-4">
+                Jordan Retro
+              </h3>
+
+              <p className="mb-6">
+                Iconic design loved by sneaker fans.
+              </p>
+
+              <button className="bg-white text-black px-6 py-3 rounded-xl">
+                Explore
+              </button>
+            </div>
+
+            <div className="bg-gray-900 text-white rounded-3xl p-10">
+              <h3 className="text-3xl font-bold mb-4">
+                Converse Classic
+              </h3>
+
+              <p className="text-gray-300 mb-6">
+                Timeless sneakers for daily wear.
+              </p>
+
+              <button className="bg-white text-black px-6 py-3 rounded-xl">
+                Explore
+              </button>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+    </main>
+  );
 }
 
