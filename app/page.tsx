@@ -6,7 +6,7 @@ export default function Home() {
 
       {/* HERO SECTION */}
       <section className="bg-gray-100 py-20">
-        <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+        <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
 
           <div>
 
@@ -69,7 +69,7 @@ export default function Home() {
               Featured Shoes
             </h2>
 
-            <button className="text-red-500 font-bold">
+            <button className="text-black-500 underline hover:scale-106 hover:cursor-pointer font-bold">
               View All
             </button>
 
@@ -78,12 +78,12 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-8">
 
             {/* CARD 1 */}
-            <div className="border rounded-3xl overflow-hidden hover:shadow-2xl hover:scale-106">
+            <div className="border rounded-3xl overflow-hidden hover:shadow-2xl hover:-translate-y-2">
 
               <img
                 src="https://images.unsplash.com/photo-1542291026-7eec264c27ff"
                 alt=""
-                className="h-72 w-full object-cover"
+                className="h-72 w-full"
               />
 
               <div className="p-6">
@@ -119,7 +119,7 @@ export default function Home() {
             </div>
 
             {/* CARD 2 */}
-            <div className="border rounded-3xl overflow-hidden hover:shadow-2xl hover:scale-106">
+            <div className="border rounded-3xl overflow-hidden hover:shadow-2xl hover:-translate-y-2">
 
               <img
                 src="https://images.unsplash.com/photo-1600185365483-26d7a4cc7519"
@@ -160,7 +160,7 @@ export default function Home() {
             </div>
 
             {/* CARD 3 */}
-            <div className="border rounded-3xl overflow-hidden hover:shadow-2xl hover:scale-106">
+            <div className="border rounded-3xl overflow-hidden hover:shadow-2xl hover:-translate-y-2">
 
               <img
                 src="https://images.unsplash.com/photo-1608231387042-66d1773070a5"
@@ -206,7 +206,7 @@ export default function Home() {
       </section>
 
       {/* CATEGORY SECTION */}
-      <section className="bg-gray-100 py-20">
+      <section className="bg-gray-100 p-20">
         <div className="max-w-7xl mx-auto px-6">
 
           <h2 className="text-4xl font-bold mb-12">
@@ -215,19 +215,19 @@ export default function Home() {
 
           <div className="grid md:grid-cols-4 gap-6">
 
-            <div className="bg-white p-10 rounded-3xl text-center shadow-lg hover:-translate-y-2 transition">
+            <div className="bg-white p-10 rounded-3xl text-center shadow-xl hover:-translate-y-2 transition">
               👟 Running Shoes
             </div>
 
-            <div className="bg-white p-10 rounded-3xl text-center shadow-lg hover:-translate-y-2 transition">
+            <div className="bg-white p-10 rounded-3xl text-center shadow-xl hover:-translate-y-2 transition">
               🏀 Basketball Shoes
             </div>
 
-            <div className="bg-white p-10 rounded-3xl text-center shadow-lg hover:-translate-y-2 transition">
+            <div className="bg-white p-10 rounded-3xl text-center shadow-xl hover:-translate-y-2 transition">
               🛹 Casual Sneakers
             </div>
 
-            <div className="bg-white p-10 rounded-3xl text-center shadow-lg hover:-translate-y-2 transition">
+            <div className="bg-white p-10 rounded-3xl text-center shadow-xl hover:-translate-y-2 transition">
               🏃 Sports Shoes
             </div>
 
@@ -255,7 +255,7 @@ export default function Home() {
                 Built for speed and maximum comfort.
               </p>
 
-              <button className="bg-white text-black px-6 py-3 rounded-xl">
+              <button className="bg-white text-black px-6 py-3 rounded-xl hover:bg-blue-400 w-full">
                 Explore
               </button>
             </div>
@@ -269,7 +269,7 @@ export default function Home() {
                 Iconic design loved by sneaker fans.
               </p>
 
-              <button className="bg-white text-black px-6 py-3 rounded-xl">
+              <button className="bg-white text-black px-6 py-3 rounded-xl hover:bg-blue-400 w-full">
                 Explore
               </button>
             </div>
@@ -283,7 +283,7 @@ export default function Home() {
                 Timeless sneakers for daily wear.
               </p>
 
-              <button className="bg-white text-black px-6 py-3 rounded-xl">
+              <button className="bg-white text-black px-6 py-3 rounded-xl hover:bg-blue-400 w-full">
                 Explore
               </button>
             </div>
