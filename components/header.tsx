@@ -25,19 +25,19 @@ export default function Header() {
 
                     {/* NAVBAR */}
                     <nav className="flex gap-6 font-medium">
-                        <a href="#" className="hover:text-gray-300">
+                        <a href="#" className="hover:text-gray-300 hover:scale-106 text-xl ">
                             Home
                         </a>
 
-                        <a href="#" className="hover:text-gray-300">
+                        <a href="#" className="hover:text-gray-300 hover:scale-106 text-xl ">
                             Shop
                         </a>
 
-                        <a href="#" className="hover:text-gray-300">
+                        <a href="#" className="hover:text-gray-300 hover:scale-106 text-xl ">
                             Collections
                         </a>
 
-                        <a href="#" className="hover:text-gray-300">
+                        <a href="#" className="hover:text-gray-300 hover:scale-106 text-xl ">
                             Contact
                         </a>
                     </nav>

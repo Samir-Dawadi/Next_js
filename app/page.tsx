@@ -209,7 +209,7 @@ export default function Home() {
       <section className="bg-gray-100 p-20">
         <div className="max-w-7xl mx-auto px-6">
 
-          <h2 className="text-4xl font-bold mb-12">
+          <h2 className="text-5xl font-bold mb-12">
             Shop By Category
           </h2>
 
@@ -240,14 +240,14 @@ export default function Home() {
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-6">
 
-          <h2 className="text-4xl font-bold mb-12">
+          <h2 className="text-5xl font-bold mb-12">
             New Arrivals
           </h2>
 
           <div className="grid md:grid-cols-3 gap-8">
 
-            <div className="bg-black text-white rounded-3xl p-10">
-              <h3 className="text-3xl font-bold mb-4">
+            <div className="bg-black text-white rounded-3xl p-10 hover:scale-106">
+              <h3 className="text-2xl font-bold mb-4">
                 Nike Revolution 7
               </h3>
 
@@ -255,13 +255,13 @@ export default function Home() {
                 Built for speed and maximum comfort.
               </p>
 
-              <button className="bg-white text-black px-6 py-3 rounded-xl hover:bg-blue-400 w-full">
+              <button className="bg-white text-black px-6 py-3 rounded-xl hover:bg-blue-400 w-full hover:underline">
                 Explore
               </button>
             </div>
 
-            <div className="bg-red-500 text-white rounded-3xl p-10">
-              <h3 className="text-3xl font-bold mb-4">
+            <div className="bg-red-500 text-white rounded-3xl p-10 hover:scale-106">
+              <h3 className="text-2xl font-bold mb-4">
                 Jordan Retro
               </h3>
 
@@ -269,13 +269,13 @@ export default function Home() {
                 Iconic design loved by sneaker fans.
               </p>
 
-              <button className="bg-white text-black px-6 py-3 rounded-xl hover:bg-blue-400 w-full">
+              <button className="bg-white text-black px-6 py-3 rounded-xl hover:bg-blue-400 w-full hover:underline">
                 Explore
               </button>
             </div>
 
-            <div className="bg-gray-900 text-white rounded-3xl p-10">
-              <h3 className="text-3xl font-bold mb-4">
+            <div className="bg-gray-900 text-white rounded-3xl p-10 hover:scale-106">
+              <h3 className="text-2xl font-bold mb-4">
                 Converse Classic
               </h3>
 
@@ -283,7 +283,7 @@ export default function Home() {
                 Timeless sneakers for daily wear.
               </p>
 
-              <button className="bg-white text-black px-6 py-3 rounded-xl hover:bg-blue-400 w-full">
+              <button className="bg-white text-black px-6 py-3 rounded-xl hover:bg-blue-400 w-full hover:underline">
                 Explore
               </button>
             </div>
