@@ -1,7 +1,7 @@
 import { ReactNode } from "react";
 import "./globals.css"
-import Footer from "@/components/footer";
-import Header from "@/components/header";
+import Footer from "@/components/Footer/footer";
+import Header from "@/components/Header/header";
 
 export default function RootLayout({children}:Readonly<{children:ReactNode}>){
   return (<>
