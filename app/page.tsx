@@ -238,7 +238,7 @@ export default function Home() {
 
       {/* NEW ARRIVALS */}
       <section className="py-20">
-        <div className="max-w-7xl mx-auto px-6">
+        <div className="max-w-7xl mx-auto px-7">
 
           <h2 className="text-5xl font-bold mb-12">
             New Arrivals
@@ -252,10 +252,10 @@ export default function Home() {
               </h3>
 
               <p className="text-gray-300 mb-6">
-                Built for speed and maximum comfort.
+                Built for speed and maximum comfort for you.
               </p>
 
-              <button className="bg-white text-black px-6 py-3 rounded-xl hover:bg-blue-400 w-full hover:underline">
+              <button className="bg-white text-black px-6 py-3 rounded-xl hover:bg-blue-500 w-full hover:underline">
                 Explore
               </button>
             </div>
@@ -269,7 +269,7 @@ export default function Home() {
                 Iconic design loved by sneaker fans.
               </p>
 
-              <button className="bg-white text-black px-6 py-3 rounded-xl hover:bg-blue-400 w-full hover:underline">
+              <button className="bg-white text-black px-6 py-3 rounded-xl hover:bg-blue-500 w-full hover:underline">
                 Explore
               </button>
             </div>
