@@ -283,7 +283,7 @@ export default function Home() {
                 Timeless sneakers for daily wear.
               </p>
 
-              <button className="bg-white text-black px-6 py-3 rounded-xl hover:bg-blue-400 w-full hover:underline">
+              <button className="bg-white text-black px-6 py-3 rounded-xl hover:bg-green-400 w-full hover:underline">
                 Explore
               </button>
             </div>
