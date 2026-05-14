@@ -2,6 +2,7 @@
 
 import Ads from "@/components/ads/Ads";
 import HeroSection from "@/components/banner/Hero";
+import CategoryProfuctList from "@/components/products/CategoryProductList";
 import HomeList from "@/components/products/HomeList";
 
 export default function Home() {
@@ -47,6 +48,8 @@ export default function Home() {
 
         </div>
       </section>
+
+      <CategoryProfuctList></CategoryProfuctList>
 
       {/* NEW ARRIVALS */}
       <section className="py-20">
