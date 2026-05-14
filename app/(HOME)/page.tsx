@@ -2,6 +2,7 @@
 
 import Ads from "@/components/ads/Ads";
 import HeroSection from "@/components/banner/Hero";
+import HomeList from "@/components/products/HomeList";
 
 export default function Home() {
   return (
@@ -14,150 +15,7 @@ export default function Home() {
       <Ads></Ads>
 
       {/* FEATURED SHOES */}
-      <section className="py-20">
-        <div className="max-w-7xl mx-auto px-6">
-
-          <div className="flex justify-between items-center mb-12">
-
-            <h2 className="text-5xl shadow-xl font-bold text-center text-red-500 animate-[pulse_1s_infinite] ">
-              Featured Shoes
-            </h2>
-
-            <button className="text-black-500 underline hover:scale-106 hover:cursor-pointer font-bold">
-              View All
-            </button>
-
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-8">
-
-            {/* CARD 1 */}
-            <div className="border rounded-3xl overflow-hidden hover:shadow-2xl hover:-translate-y-2">
-
-              <img
-                src="https://images.unsplash.com/photo-1542291026-7eec264c27ff"
-                alt=""
-                className="h-72 w-full"
-              />
-
-              <div className="p-6">
-
-                <h3 className="text-2xl font-bold mb-2">
-                  Nike Air Max
-                </h3>
-
-                <p className="text-gray-500 mb-5 line-clamp-1">
-                  Lightweight running sneakers for everyday comfort.
-                </p>
-
-                <div className="flex justify-between items-center w-full">
-
-                  <div className="flex gap-3 items-center">
-                    <span className="text-2xl font-bold ">
-                      $60
-                    </span>
-                    <span className="text-md font-bold text-red-400">
-                      <em className="line-through">
-                        $120
-                      </em>
-                    </span>
-                  </div>
-
-                  <button className="bg-black text-white px-5 py-2 rounded-xl hover:bg-blue-500">
-                    Buy Now
-                  </button>
-
-                </div>
-
-              </div>
-            </div>
-
-            {/* CARD 2 */}
-            <div className="border rounded-3xl overflow-hidden hover:shadow-2xl hover:-translate-y-2">
-
-              <img
-                src="https://images.unsplash.com/photo-1600185365483-26d7a4cc7519"
-                alt=""
-                className="h-72 w-full object-cover"
-              />
-
-              <div className="p-6">
-
-                <h3 className="text-2xl font-bold mb-2">
-                  Adidas Ultraboost
-                </h3>
-
-                <p className="text-gray-500 mb-5">
-                  Stylish premium sneakers with soft cushioning.
-                </p>
-
-                <div className="flex justify-between items-center w-full">
-
-                  <div className="flex gap-3 items-center">
-                    <span className="text-2xl font-bold ">
-                      $60
-                    </span>
-                    <span className="text-md font-bold text-red-400">
-                      <em className="line-through">
-                        $120
-                      </em>
-                    </span>
-                  </div>
-
-                  <button className="bg-black text-white px-5 py-2 rounded-xl hover:bg-blue-500">
-                    Buy Now
-                  </button>
-
-                </div>
-
-              </div>
-            </div>
-
-            {/* CARD 3 */}
-            <div className="border rounded-3xl overflow-hidden hover:shadow-2xl hover:-translate-y-2">
-
-              <img
-                src="https://images.unsplash.com/photo-1608231387042-66d1773070a5"
-                alt=""
-                className="h-72 w-full object-cover"
-              />
-
-              <div className="p-6">
-
-                <h3 className="text-2xl font-bold mb-2">
-                  Puma RS-X
-                </h3>
-
-                <p className="text-gray-500 mb-5">
-                  Modern streetwear sneakers with trendy design.
-                </p>
-
-                <div className="flex justify-between items-center w-full">
-
-                  <div className="flex gap-3 items-center">
-                    <span className="text-2xl font-bold ">
-                      $60
-                    </span>
-                    <span className="text-md font-bold text-red-400">
-                      <em className="line-through">
-                        $120
-                      </em>
-                    </span>
-                  </div>
-
-                  <button className="bg-black text-white px-5 py-2 rounded-xl hover:bg-blue-500">
-                    Buy Now
-                  </button>
-
-                </div>
-
-              </div>
-            </div>
-
-          </div>
-
-        </div>
-      </section>
+      <HomeList></HomeList>
 
       {/* CATEGORY SECTION */}
       <section className="bg-gray-100 p-20">
