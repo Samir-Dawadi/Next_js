@@ -1,3 +1,4 @@
+import { ProductType } from "@/types/ProductType";
 
 
 export default async function HomeList() {
@@ -25,18 +26,15 @@ export default async function HomeList() {
 
                 <div className="grid md:grid-cols-3 gap-8">
 
-                    {/* CARD 1 */}
-
-
                     {
 
-                        result.products && result.products.map((product) => (
-                            <div 
-                            key={product.id}
-                            className="border rounded-3xl overflow-hidden hover:shadow-2xl hover:-translate-y-2">
+                        result.products && result.products.map((product: ProductType) => (
+                            <div
+                                key={product.id}
+                                className="border rounded-3xl overflow-hidden hover:shadow-2xl hover:-translate-y-2">
                                 <img
                                     src={product.thumbnail}
-                                    alt={product.tilte}
+                                    alt={product.title}
                                     className="h-72 w-full"
                                 />
 
