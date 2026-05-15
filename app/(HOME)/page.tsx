@@ -16,7 +16,7 @@ export default function Home() {
       <Ads></Ads>
 
       {/* FEATURED SHOES */}
-      <HomeList></HomeList>
+      {/* <HomeList></HomeList> */}
 
       {/* CATEGORY SECTION */}
       <section className="bg-gray-100 p-20">

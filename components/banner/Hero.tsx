@@ -12,7 +12,7 @@ export default function HeroSection() {
                 <div className="max-w-7xl mx-auto">
                     <Swiper
                         spaceBetween={50}           //space betn slides
-                        slidesPerView={1}          //yeauta matra slide in a screen
+                        slidesPerView={1}          //how many slide in a screen
                         onSlideChange={() => console.log('slide change')}     //slide change huda yo func chalxa
                         onSwiper={(swiper) => console.log(swiper)}              //swipe garda swiper ma vako data haru dekhauca
                     >
