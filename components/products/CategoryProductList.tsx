@@ -1,6 +1,11 @@
-"use client"
+"use client"    //Next.js ma yo component browser/client side ma run gara vaneko.Swiper browser ko features use garxa.server ma yo hudaina.
 import { Swiper, SwiperSlide } from "swiper/react"
+import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+
 import 'swiper/css'
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
 
 export default function CategoryProfuctList() {
     return (
@@ -10,10 +15,14 @@ export default function CategoryProfuctList() {
                     <h1 className="text-3xl font-bold mt-5"> Extra Product List </h1>
                     <div className="w-full">
                         <Swiper
-                            spaceBetween={20}           //space betn slides
-                            slidesPerView={3}          //yeauta matra slide in a screen
-                            onSlideChange={() => console.log('slide change')}     //slide change huda yo func chalxa
-                            onSwiper={(swiper) => console.log(swiper)}              //swipe garda swiper ma vako data haru dekhauca
+                            modules={[Navigation, Pagination, Scrollbar, A11y]}
+                            spaceBetween={20}
+                            slidesPerView={4}
+                            navigation                              //Left/right arrow buttons.(navigation={true}   =   navigation)
+                            pagination={{ clickable: true }}        //Bottom ma dots show garxa.Dots clickable banauxa.
+                            scrollbar={{ draggable: true }}         //mouse le tanera move garna milxa.
+                            onSwiper={(swiper) => console.log(swiper)}
+                            onSlideChange={() => console.log('slide change')}           //swipe garda swiper ma vako data haru dekhauca
                         >
 
                             <SwiperSlide>
@@ -35,7 +44,7 @@ export default function CategoryProfuctList() {
                                     </div>
                                 </div>
                             </SwiperSlide>
-                          
+
                             <SwiperSlide>
                                 <div className="rounded-md shadow-md hover:shadow-lg border-4">
                                     <div>
@@ -55,7 +64,7 @@ export default function CategoryProfuctList() {
                                     </div>
                                 </div>
                             </SwiperSlide>
-                          
+
                             <SwiperSlide>
                                 <div className="rounded-md shadow-md hover:shadow-lg border-4">
                                     <div>
@@ -75,7 +84,7 @@ export default function CategoryProfuctList() {
                                     </div>
                                 </div>
                             </SwiperSlide>
-                          
+
                             <SwiperSlide>
                                 <div className="rounded-md shadow-md hover:shadow-lg border-4">
                                     <div>
@@ -95,7 +104,7 @@ export default function CategoryProfuctList() {
                                     </div>
                                 </div>
                             </SwiperSlide>
-                          
+
                             <SwiperSlide>
                                 <div className="rounded-md shadow-md hover:shadow-lg border-4">
                                     <div>
@@ -115,7 +124,7 @@ export default function CategoryProfuctList() {
                                     </div>
                                 </div>
                             </SwiperSlide>
-                          
+
                             <SwiperSlide>
                                 <div className="rounded-md shadow-md hover:shadow-lg border-4">
                                     <div>
@@ -135,7 +144,7 @@ export default function CategoryProfuctList() {
                                     </div>
                                 </div>
                             </SwiperSlide>
-                          
+
 
                         </Swiper>
 
