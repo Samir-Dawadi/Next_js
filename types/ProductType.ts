@@ -3,4 +3,6 @@ export type ProductType = {
     title:string,
     price:number,
     thumbnail:string
+    description:string
+    rating?:string
 }
