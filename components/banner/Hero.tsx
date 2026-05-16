@@ -37,13 +37,17 @@ export default function HeroSection() {
 
                                     <div className="flex gap-4">
 
-                                        <button className="bg-black text-white px-8 py-4 rounded-2xl hover:scale-105 transition duration-300">
-                                            Shop Now
-                                        </button>
+                                        <a href="#FeatureShoes">
+                                            <button className="bg-black text-white px-8 py-4 rounded-2xl hover:scale-105 transition duration-300">
+                                                Shop Now
+                                            </button>
+                                        </a>
 
-                                        <button className="border border-black px-8 py-4 rounded-2xl hover:bg-black hover:text-white transition duration-300">
-                                            Explore
-                                        </button>
+                                        <a href="#FeatureShoes">
+                                            <button className="border border-black px-8 py-4 rounded-2xl hover:bg-black hover:text-white transition duration-300">
+                                                Explore
+                                            </button>
+                                        </a>
 
                                     </div>
 
@@ -85,13 +89,17 @@ export default function HeroSection() {
 
                                     <div className="flex gap-4">
 
-                                        <button className="bg-yellow-400 text-black px-8 py-4 rounded-2xl hover:scale-105 transition duration-300 font-semibold">
-                                            Buy Now
-                                        </button>
+                                        <a href="#FeatureShoes">
+                                            <button className="bg-yellow-400 text-black px-8 py-4 rounded-2xl hover:scale-105 transition duration-300 font-semibold">
+                                                Buy Now
+                                            </button>
+                                        </a>
 
-                                        <button className="border border-white text-white px-8 py-4 rounded-2xl hover:bg-white hover:text-black transition duration-300">
-                                            View More
-                                        </button>
+                                        <a href="#ExtraProduct">
+                                            <button className="border border-white text-white px-8 py-4 rounded-2xl hover:bg-white hover:text-black transition duration-300">
+                                                View More
+                                            </button>
+                                        </a>
 
                                     </div>
 

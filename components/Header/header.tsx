@@ -29,7 +29,7 @@ export default function Header() {
                             Home
                         </a>
 
-                        <a href="#" className="hover:text-gray-300 hover:scale-106 text-xl ">
+                        <a href="#FeatureShoes" className="hover:text-gray-300 hover:scale-106 text-xl ">
                             Shop
                         </a>
 

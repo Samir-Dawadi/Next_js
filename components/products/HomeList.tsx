@@ -8,7 +8,7 @@ export default async function HomeList() {
     const result = await response.json()
 
     return (<>
-        <section className="py-20">
+        <section id="FeatureShoes" className="py-20">
             <div className="max-w-7xl mx-auto px-6">
 
                 <div className="flex justify-between items-center mb-12">

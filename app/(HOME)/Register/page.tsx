@@ -1,11 +1,11 @@
 export default function Register() {
     return (
-        <main className="min-h-screen bg-gradient-to-br from-pink-100 via-white to-blue-100 flex items-center justify-center p-5">
+        <main className="min-h-screen bg-linear-to-br from-pink-100 via-white to-blue-100 flex items-center justify-center p-5">
 
             <div className="w-full max-w-6xl bg-white rounded-3xl shadow-2xl overflow-hidden grid md:grid-cols-2">
 
                 {/* Left Side */}
-                <div className="hidden md:flex flex-col justify-center items-center bg-gradient-to-br from-pink-500 to-blue-600 text-white p-10">
+                <div className="hidden md:flex flex-col justify-center items-center bg-linear-to-br from-pink-500 to-blue-600 text-white p-10">
 
                     <img src="next.svg" className="w-40 mb-6" />
 
@@ -96,7 +96,7 @@ export default function Register() {
 
                             {/* Button */}
                             <button
-                                className="w-full bg-gradient-to-r from-pink-500 to-blue-600 text-white py-3 rounded-xl font-semibold shadow-lg hover:scale-[1.02] duration-300"
+                                className="w-full bg-linear-to-r from-pink-500 to-blue-600 text-white py-3 rounded-xl font-semibold shadow-lg hover:scale-[1.02] duration-300"
                             >
                                 Create Account
                             </button>

@@ -28,7 +28,7 @@ export default function CategoryProfuctList() {
 
     return (
         <>
-            <section className="w-full bg-gray-400">
+            <section id="ExtraProduct" className="w-full bg-gray-400">
                 <div className="max-w-7xl mx-auto flex flex-col gap-6 p-5">
                     <h1 className="text-3xl font-bold mt-5"> Extra Product List </h1>
                     <div className="w-full">
@@ -61,10 +61,10 @@ export default function CategoryProfuctList() {
                                                     <p className="text-black-600 text-sm mb-2 line-clamp-3">{prod.description}</p>
                                                     <div className="flex items-center justify-between">
                                                         <span className="font-bold text-lg">$19.99</span>
-                                                            <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">
-                                                                Buy Now
-                                                            </button>
-                                                       
+                                                        <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">
+                                                            Buy Now
+                                                        </button>
+
                                                     </div>
                                                     <div className="flex">
                                                         <h1 className="text-md">Rating : </h1>{prod.rating}
