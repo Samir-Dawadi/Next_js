@@ -6,7 +6,6 @@ export default async function HomeList() {
     //server side component  which are good than client side bcz it is good to do seo on the server side
     const response = await fetch('https://dummyjson.com/products');
     const result = await response.json()
-    console.log
 
     return (<>
         <section className="py-20">
