@@ -40,6 +40,12 @@ export default function Header() {
                         <a href="#" className="hover:text-gray-300 hover:scale-106 text-xl ">
                             Contact
                         </a>
+                        <a href="/login" className="hover:text-gray-300 hover:scale-106 text-xl ">
+                            login
+                        </a>
+                        <a href="/Register" className="hover:text-gray-300 hover:scale-106 text-xl ">
+                            Sign up
+                        </a>
                     </nav>
 
                 </div>
