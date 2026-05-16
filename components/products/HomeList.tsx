@@ -61,7 +61,7 @@ export default async function HomeList() {
                                         </div>
 
                                         <button className="bg-black text-white px-5 py-2 rounded-xl hover:bg-blue-500">
-                                            <a href={'/products/' + product.id} >
+                                            <a href={'/product/' + product.id} >
                                                 Buy Now
                                             </a>
                                         </button>

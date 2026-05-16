@@ -61,11 +61,10 @@ export default function CategoryProfuctList() {
                                                     <p className="text-black-600 text-sm mb-2 line-clamp-3">{prod.description}</p>
                                                     <div className="flex items-center justify-between">
                                                         <span className="font-bold text-lg">$19.99</span>
-                                                        <a href={'/product/' + prod.id}>
                                                             <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">
                                                                 Buy Now
                                                             </button>
-                                                        </a>
+                                                       
                                                     </div>
                                                     <div className="flex">
                                                         <h1 className="text-md">Rating : </h1>{prod.rating}
