@@ -24,7 +24,7 @@ export default function Header() {
                     </div>
 
                     {/* NAVBAR */}
-                    <nav className="flex gap-6 font-medium">
+                    <nav className="flex gap-6 font-medium items-center justify-center">
                         <a href="/" className="hover:text-gray-300 hover:scale-106 text-xl ">
                             Home
                         </a>
@@ -40,10 +40,10 @@ export default function Header() {
                         <a href="#" className="hover:text-gray-300 hover:scale-106 text-xl ">
                             Contact
                         </a>
-                        <a href="/login" className="hover:text-gray-300 hover:scale-106 text-xl ">
+                        <a href="/login" className="hover:text-black-300 hover:scale-106 text-xl bg-teal-300 rounded-xl  px-5 py-2">
                             login
                         </a>
-                        <a href="/Register" className="hover:text-gray-300 hover:scale-106 text-xl ">
+                        <a href="/Register" className="hover:text-gray-300 hover:scale-106 text-xl  bg-teal-300 rounded-xl">
                             Sign up
                         </a>
                     </nav>

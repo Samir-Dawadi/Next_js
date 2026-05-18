@@ -11,7 +11,13 @@ export const generateMetadata =  async ({params}:Readonly<{params:Promise<{produ
     }
 }
 
-export default function ProductDetail() {
+export default async function ProductDetail({params}:Readonly<{params:Promise<{productId:string}>}>) {
+    const param = await params;
+    const response = await fetch (
+        "https://dummyjson.com/product/"+param.productId
+    )
+    const productDetail = (await response.json()) as ProductType
+    console.log(productDetail)
     return (
         <>
 
