@@ -40,10 +40,10 @@ export default function Header() {
                         <a href="#" className="hover:text-gray-300 hover:scale-106 text-xl ">
                             Contact
                         </a>
-                        <a href="/login" className="hover:text-black-300 hover:scale-106 text-xl bg-teal-300 rounded-xl  px-5 py-2">
+                        <a href="/login" className="hover:text-white-300 hover:scale-106 text-xl bg-teal-300 rounded-xl  px-5 py-2">
                             login
                         </a>
-                        <a href="/Register" className="hover:text-gray-300 hover:scale-106 text-xl  bg-teal-300 rounded-xl px-5 py-2">
+                        <a href="/Register" className="hover:text-white-300 hover:scale-106 text-xl  bg-teal-300 rounded-xl px-5 py-2">
                             Sign up
                         </a>
                     </nav>
